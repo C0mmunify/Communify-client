@@ -15,7 +15,7 @@ function LoginForm() {
         e.preventDefault();
         setErrorMessage('')
         await loginFunction(e);
-        if (localStorage.length) { goTo('/welcome') }
+        if (localStorage.length) { goTo('/profile') }
         else { setErrorMessage('Incorrect Username or Password!') }
     }
 
