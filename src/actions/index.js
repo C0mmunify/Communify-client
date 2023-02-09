@@ -3,7 +3,7 @@ import axios from 'axios'
 export const loginFunction = async (e) => {
     try {
         const userData = {
-            email: e.target.username.value,
+            email: e.target.email.value,
             password: e.target.password.value
         }
 
@@ -22,7 +22,13 @@ export const loginFunction = async (e) => {
 export const registerFunction = async (e) => {
     try {
         const userData = {
-            email: e.target.username.value,
+            //address: e.target.postcode.value,
+            name: e.target.username.value,
+            email: e.target.email.value,
+            phone: "07983748596",
+            age: 312,
+            council: "Kingston",
+            admin: false,
             password: e.target.password.value
         }
 
