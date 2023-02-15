@@ -25,7 +25,7 @@ export const registerFunction = async (e) => {
             //address: e.target.postcode.value,
             name: e.target.username.value,
             email: e.target.email.value,
-            phone: "07983748596",
+            //phone: "07983748596",
             age: 312,
             council: "Kingston",
             admin: false,
