@@ -7,7 +7,7 @@ export const loginFunction = async (e) => {
             password: e.target.password.value
         }
 
-        const response = await axios.post('http://localhost:3000/auth/login', userData)
+        const response = await axios.post('https://communify-server-tom.onrender.com/auth/login', userData)
         const data = await response.data
         console.log(data)
         if (data.err)
@@ -32,7 +32,7 @@ export const registerFunction = async (e) => {
             password: e.target.password.value
         }
 
-        const response = await axios.post('http://localhost:3000/auth/register', userData)
+        const response = await axios.post('https://communify-server-tom.onrender.com/auth/register', userData)
         const data = await response.data
         if (data.err)
         {throw Error(data.err)}
