@@ -43,22 +43,23 @@ export const registerFunction = async (e) => {
 
 }
 
-export const createEventFunction = async (e) => {
+export const createEventFunction = async (e, createdby) => {
     try {
         const eventData = {
-            title: e.target.eventTitle.value,
-            description: e.target.eventDescription.value,
-            location: e.target.eventLocation.value,
-            council: e.target.eventCouncil.value,
-            creator_id: e.target.createdby.value,
-            spaces_total: e.target.eventSpaces.value,
-            spaces_remaining: e.target.eventSpaces.value,
-            date_occuring: e.target.startDate.value,
-            date_ending: e.target.endDate.value
+            title: e.target.eventtitle.value,
+            description: e.target.eventdescription.value,
+            location: e.target.eventlocation.value,
+            council: e.target.eventcouncil.value,
+            creator_id: createdby,
+            spaces_total: e.target.eventspaces.value,
+            spaces_remaining: e.target.eventspaces.value,
+            date_occurring: e.target.startdate.value,
+            date_ending: e.target.enddate.value
         }
 
-        const response = await axios.post('https://communify-server-dev.onrender.com/post/events', eventData)
+        const response = await axios.post('https://communify-server-dev.onrender.com/events', eventData)
         const data = await response.data
+        console.log("Success")
         if (data.err)
         {throw Error(data.err)}
     } catch (err) {
@@ -95,6 +96,7 @@ export const editImageFunction = async (e) => {
 export const runLogs = () => {
     const userToken = localStorage.getItem('token')
     const userInfo = jwt(userToken)
+    console.log(userToken)
     console.log(userInfo)
 }
 

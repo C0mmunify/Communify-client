@@ -1,5 +1,5 @@
 import React from 'react';
-//import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import jwt from 'jwt-decode'
 import './styles.css'
 import { BackButton } from '../../components';
@@ -8,7 +8,7 @@ import EditImageForm from '../../components/editImageForm';
 import RunLogs from '../../components/runLogs';
 
 const Profile = () => {
-    //const goTo = useNavigate();
+    const goTo = useNavigate();
     const userInfo = localStorage.getItem('token')
     const username = jwt(userInfo).name
 
@@ -20,6 +20,7 @@ const Profile = () => {
             <ProfileBlock />
             <EditImageForm />
             <RunLogs />
+            <p className='clickable' onClick={() => goTo('/events')}> Click here for events </p>
             <BackButton />
         </section>
     )

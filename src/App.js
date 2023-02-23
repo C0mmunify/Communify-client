@@ -14,6 +14,8 @@ function App() {
                 </Route>
                 <Route path='/register' element={<Pages.Register />}>
                 </Route>
+                <Route path='/events' element={<Pages.Events />}>
+                </Route>
             </Routes>
         </main>
     )
