@@ -4,6 +4,8 @@ import jwt from 'jwt-decode'
 import './styles.css'
 import { BackButton } from '../../components';
 import ProfileBlock from '../../components/profileBlock';
+import EditImageForm from '../../components/editImageForm';
+import RunLogs from '../../components/runLogs';
 
 const Profile = () => {
     //const goTo = useNavigate();
@@ -16,6 +18,8 @@ const Profile = () => {
             <h1>Welcome</h1>
             <h1>{username}</h1>
             <ProfileBlock />
+            <EditImageForm />
+            <RunLogs />
             <BackButton />
         </section>
     )

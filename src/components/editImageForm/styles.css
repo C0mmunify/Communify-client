@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+form {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+}
+
+form input {
+    margin: 0.5rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+label {
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+}
+
+#submit {
+    background-color: rgb(1, 1, 185);
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: #E9ECDE;
+    border-radius: 20px;
+    min-width: 250px;
+    min-height: 35px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    align-self: center;
+}
+
+p.clickable {
+    color: rgb(111, 78, 45);
+}

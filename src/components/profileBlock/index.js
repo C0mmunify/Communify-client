@@ -8,7 +8,7 @@ const ProfileBlock = () => {
 
     return(
         <>
-        {/* <img src={userInfo.profile_img}></img> */}
+        <img alt="Profile" src={userInfo.profile_image}></img>
         <h1> {userInfo.username} </h1>
         <p> Age: {userInfo.age} </p>
         {/* <p> following: {followingInfo.length-1} </p> */}
