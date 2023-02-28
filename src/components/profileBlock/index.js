@@ -1,5 +1,6 @@
 import React from 'react';
 import jwt from 'jwt-decode';
+import './styles.css';
 
 const ProfileBlock = () => {
 
@@ -8,12 +9,16 @@ const ProfileBlock = () => {
 
     return(
         <>
-        <img alt="Profile" src={userInfo.profile_image}></img>
+        <section id="profileBlock">
+        <img id="profileImg" alt="Profile" src="https://drive.google.com/uc?export=view&id=19mG4U3KP7vzFPncPKHNGjhFKeQrI8rKq"></img>
+        <section id="profileText">
         <h1> {userInfo.username} </h1>
         <p> Age: {userInfo.age} </p>
         {/* <p> following: {followingInfo.length-1} </p> */}
         {/* <p> followers: {followerInfo.length-1} </p> */}
-        <p> {userInfo.council}</p>
+        <p> Council: {userInfo.council}</p>
+        </section>
+        </section>
     </>
     )
 }
