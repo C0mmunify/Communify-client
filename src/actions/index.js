@@ -93,6 +93,18 @@ export const editImageFunction = async (e) => {
     
 }
 
+export const getAllEvents = async (e) => {
+
+    try {
+        const response = await axios.get('https://communify-server-dev.onrender.com/events')
+        const data = await response.data
+        if (data.err)
+        {throw Error(data.err)}
+    } catch (err) {
+        console.warn(err)
+    }
+}
+
 export const runLogs = () => {
     const userToken = localStorage.getItem('token')
     const userInfo = jwt(userToken)
