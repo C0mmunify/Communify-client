@@ -94,12 +94,15 @@ export const editImageFunction = async (e) => {
 }
 
 export const getAllEvents = async (e) => {
-
+    const token = localStorage.getItem('token')
     try {
-        const response = await axios.get('https://communify-server-dev.onrender.com/events')
+        const response = await axios.get('https://communify-server-dev.onrender.com/events', { headers: {
+            'authorization': `Bearer ${token}`
+        }})
         const data = await response.data
         if (data.err)
         {throw Error(data.err)}
+        return data
     } catch (err) {
         console.warn(err)
     }

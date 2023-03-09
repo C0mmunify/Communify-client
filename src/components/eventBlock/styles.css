@@ -1,0 +1,25 @@
+#eventText {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 0;
+}
+
+#eventBlock {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 20px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 30px;
+    width: 60%;
+    align-self: center;
+}
+
+h1 {
+    align-items: flex-start;
+}
