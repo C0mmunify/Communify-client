@@ -9,6 +9,7 @@ const Events = () => {
     const [ EventList, setEventList ] = useState([]);
     
     useEffect(() => {
+
         async function eventsFunction() {
         let localEvents = await getAllEvents();
         setEventArray(localEvents);
@@ -21,9 +22,9 @@ const Events = () => {
             if (!eventArray) {
                 return;
             }
-            let arr = eventArray.map((event, index) => <EventBlock title={event.title} description={event.description} location={event.location} spaces_total={event.spacesTotal} spaces_remaining={event.spacesRemaining} key={index} />);
+            let arr = eventArray.map((event, index) => <EventBlock title={event.title} description={event.description} location={event.location} spaces_total={event.spacesTotal} spaces_remaining={event.spacesRemaining} dateOcurring={event.dateOcurring} key={index} />);
             setEventList(arr);
-    
+            console.log(EventList)
         }
         renderAllEvents();
     }, [eventArray])

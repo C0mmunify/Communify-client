@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
-body {
-    background-color: #f6f3f0;
-}
-
 section {
     display: flex;
     flex-direction: column;

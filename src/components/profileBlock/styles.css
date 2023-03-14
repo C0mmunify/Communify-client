@@ -7,25 +7,33 @@
 #profileText {
     flex-direction: column;
     flex-wrap: wrap;
-    padding-left: 50px;
-    padding-bottom: 50px;
+    padding-left: 0;
+    padding-bottom: 0;
     padding-top: 0;
 }
 
 #profileBlock {
     display: inline-flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     padding: 20px;
     border: solid;
     border-color: black;
     border-width: 1px;
     border-radius: 30px;
-    width: 60%;
+    width: 30%;
     align-self: center;
 }
 
 h1 {
-    align-items: flex-start;
+    align-items: center;
+    padding-top: 5px;
+    margin: 5px;
+}
+
+p {
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
 }

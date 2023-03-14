@@ -12,12 +12,36 @@
     flex-wrap: wrap;
     justify-content: left;
     padding: 20px;
+    padding-top: 0;
     border: solid;
     border-color: black;
     border-width: 1px;
     border-radius: 30px;
     width: 60%;
     align-self: center;
+    margin: 20px;
+}
+
+#eventMain {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 10px;
+    width: 17.5%;
+}
+
+#eventDescription {
+    justify-content: center;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 10px;
+    width: 50%;
+}
+
+#eventAttendance {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 10px;
+    width: 17.5%;
 }
 
 h1 {
