@@ -35,8 +35,8 @@ const Profile = () => {
     }, [eventArray])
 
     return (
-        <section>
-            <img src='https://drive.google.com/uc?export=view&id=1psAL2nh2-VuiS4XvU0sU259gGn3WDO6Y' alt='Communify Logo'></img>
+        <section id='profileSection'>
+            <img id='headerimg' src='https://drive.google.com/uc?export=view&id=1WtBo3h7QZbD6cquMapmWCgXFUDLXYsIe' alt='Communify Logo'></img>
             <ProfileBlock />
             { EventList }
             <BackButton />

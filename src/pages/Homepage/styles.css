@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
-section {
+#homepageSection {
     display: flex;
     flex-direction: column;
     font-size: 3rem;
