@@ -22,7 +22,7 @@ const Events = () => {
             if (!eventArray) {
                 return;
             }
-            let arr = eventArray.map((event, index) => <EventBlock title={event.title} description={event.description} location={event.location} spaces_total={event.spacesTotal} spaces_remaining={event.spacesRemaining} dateOcurring={event.dateOcurring} key={index} />);
+            let arr = eventArray.map((event, index) => <EventBlock title={event.title} description={event.description} location={event.location} spaces_total={event.spaces_total} spaces_remaining={event.spaces_remaining} date_occurring={event.date_occurring} key={index} />);
             setEventList(arr);
             console.log(EventList)
         }

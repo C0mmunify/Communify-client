@@ -3,7 +3,7 @@ import './styles.css';
 
 const EventBlock = (props) => {
 
-    let dateArray = props.dateOcurring.split("T")[0].split("-")
+    let dateArray = props.date_occurring.split("T")[0].split("-")
     let formattedDate = `${dateArray[2]}/${dateArray[1]}/${dateArray[0]}`
     
     return(
