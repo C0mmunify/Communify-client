@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 import jwt from 'jwt-decode'
 import './styles.css'
-import { BackButton, EventBlock } from '../../components';
+import { BackButton, EventBlock, Nav } from '../../components';
 import ProfileBlock from '../../components/profileBlock';
 import { getAllEvents } from '../../actions';
 
@@ -36,7 +36,7 @@ const Profile = () => {
 
     return (
         <section id='profileSection'>
-            <img id='headerimg' src='https://drive.google.com/uc?export=view&id=1WtBo3h7QZbD6cquMapmWCgXFUDLXYsIe' alt='Communify Logo'></img>
+            {/* <img id='headerimg' src='https://drive.google.com/uc?export=view&id=1WtBo3h7QZbD6cquMapmWCgXFUDLXYsIe' alt='Communify Logo'></img> */}
             <ProfileBlock />
             { EventList }
             <BackButton />

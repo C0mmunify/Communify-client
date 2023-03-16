@@ -86,7 +86,7 @@ function EventForm() {
             <input aria-label="StartDate" name="startdate" type='datetime-local' onChange={updateStartDate} />
             <label htmlFor='EndDate'>End Date</label>
             <input aria-label='EndDate' name="enddate" type='datetime-local' onChange={updateEndDate} />
-            <input role='submit' className='submit' type='submit' value='CREATE' />
+            <input role='submit' className='submit' type='submit' value='Create' />
             </form>
     );
 };

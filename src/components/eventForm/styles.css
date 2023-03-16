@@ -1,0 +1,3 @@
+input[type=submit]::-webkit-file-upload-button{
+    cursor: pointer;
+}

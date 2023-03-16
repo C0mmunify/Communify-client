@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { getAllEvents } from '../../actions';
-import { BackButton, EventBlock } from '../../components';
+import { BackButton, EventBlock, Nav } from '../../components';
 import './styles.css'
 
 const Events = () => {
@@ -31,8 +31,7 @@ const Events = () => {
 
 
     return (
-        <section>
-            <img src='https://drive.google.com/uc?export=view&id=1psAL2nh2-VuiS4XvU0sU259gGn3WDO6Y' alt='Communify Logo'></img>
+        <section id='eventsSection'>
             { EventList }
             <BackButton />
         </section>

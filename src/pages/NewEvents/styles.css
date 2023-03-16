@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+#newEventSection {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    justify-content: space-evenly;
+}
+
+button :hover {
+    cursor: pointer;
+}

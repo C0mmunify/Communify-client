@@ -1,10 +1,21 @@
-import React from 'react';
+import {React, useState, useEffect} from 'react';
 import * as Pages from './pages'
 import { Routes, Route } from 'react-router-dom';
+import { Nav } from './components';
 
 function App() {
+
+    const [isUser, setIsUser] = useState(false)
+    
+    useEffect(() => {
+        let user = localStorage.getItem("token")
+        setIsUser(user)
+        
+    }, [])
+
     return (
         <main>
+                {!!isUser ? <Nav /> : <></>}
             <Routes>
                 <Route path='/' element={<Pages.Homepage />}>
                 </Route>
