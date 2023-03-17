@@ -73,7 +73,7 @@ function EventForm() {
                 <p className="error"> {errorMessage} </p>
             )}
             <label htmlFor='EventTitle'>Event Title</label>
-            <input aria-label="EventTitle" name="eventtitle" type='text' onChange={updateEventTitle} />
+            <input aria-label='EventTitle' name="eventtitle" type='text' onChange={updateEventTitle} />
             <label htmlFor='EventDescription'>Event Description</label>
             <input aria-label="EventDescription" name="eventdescription" type='textarea' onChange={updateEventDescription} />
             <label htmlFor='EventLocation'>Event Location</label>

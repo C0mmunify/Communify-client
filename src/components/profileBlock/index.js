@@ -13,10 +13,10 @@ const ProfileBlock = () => {
         <img id="profileImg" alt="Profile" src="https://drive.google.com/uc?export=view&id=19mG4U3KP7vzFPncPKHNGjhFKeQrI8rKq"></img>
         <section id="profileText">
         <h1> {userInfo.username} </h1>
-        <p> Age: {userInfo.age} </p>
+        <p id="profileAge"> Age: {userInfo.age} </p>
         {/* <p> following: {followingInfo.length-1} </p> */}
         {/* <p> followers: {followerInfo.length-1} </p> */}
-        <p> Council: {userInfo.council}</p>
+        <p id="profileCouncil"> Council: {userInfo.council}</p>
         </section>
         </section>
     </>

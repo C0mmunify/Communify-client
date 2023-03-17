@@ -21,10 +21,10 @@ function EditImageForm() {
                 )}
                 <label htmlFor="profileImg">Add a profile image</label>
                 <input id='profileImg' type='file' accept='.jpg, .jpeg, .png' />
-                <input type='submit' onClick={handleSubmit} />
+                <input id='formSubmit' type='submit' onClick={handleSubmit} />
             </form>
         </div>
     )
-};
+}; 
 
 export default EditImageForm;
