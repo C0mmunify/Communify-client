@@ -28,7 +28,8 @@ const Nav = () => {
     const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
     const handleLogout = () => {
-        localStorage.clear()
+        localStorage.clear();
+        window.dispatchEvent(new Event("storage"));
     }
 
     const toggleHamburger = () => {

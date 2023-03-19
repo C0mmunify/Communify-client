@@ -118,5 +118,6 @@ export const runLogs = () => {
 // helpers
 
 function login(data) {
-    localStorage.setItem("token", data.Bearer)
+    localStorage.setItem("token", data.Bearer);
+    window.dispatchEvent(new Event("storage"));
 }

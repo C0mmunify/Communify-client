@@ -5,17 +5,23 @@ import { Nav } from './components';
 
 function App() {
 
-    const [isUser, setIsUser] = useState(false)
-    
-    useEffect(() => {
-        let user = localStorage.getItem("token")
-        setIsUser(user)
-        
-    }, [])
+    const [isLoggedIn, setIsLoggedIn] = useState(localStorage.getItem("token") ? true : false);
+
+        window.addEventListener('storage', () => {
+            if(localStorage.getItem('token') !== null)
+            {
+                console.log(localStorage.getItem("token"))
+                setIsLoggedIn(true)
+            } else {
+                console.log(localStorage.getItem("token"))
+                setIsLoggedIn(false)
+            }
+        });
+
 
     return (
         <main>
-                {!!isUser ? <Nav /> : <></>}
+                {isLoggedIn ? <Nav /> : <></>}
             <Routes>
                 <Route path='/' element={<Pages.Homepage />}>
                 </Route>

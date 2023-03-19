@@ -67,12 +67,12 @@ a, a:visited{
     .navigation {
         display: flex;
         flex-direction: column-reverse;
-        justify-content: end;
+        justify-content: flex-end;
     }
 
     .navigation {
         display: flex;
-        align-items: start;
+        align-items: flex-start;
     }
 }
 
