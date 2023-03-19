@@ -80,3 +80,7 @@ a, a:visited{
     display: flex;
     height: 40px;
 }
+
+#spacer{
+    padding: 50px;
+}

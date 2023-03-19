@@ -50,6 +50,8 @@ const Nav = () => {
                     <Hamburger />
                 </div>
             </div>
+            <div id='spacer'>
+            </div>
         </div>
 
     )
