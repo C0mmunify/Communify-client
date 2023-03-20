@@ -1,12 +1,13 @@
 import { React, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { handleLogout } from '../../actions';
 import './styles.css'
 
 const Homepage = () => {
     const goTo = useNavigate();
 
     useEffect(() => {
-        localStorage.clear()
+        handleLogout()
     }, [])
 
     return (

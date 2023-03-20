@@ -121,3 +121,8 @@ function login(data) {
     localStorage.setItem("token", data.Bearer);
     window.dispatchEvent(new Event("storage"));
 }
+
+export const handleLogout = () => {
+    localStorage.clear();
+    window.dispatchEvent(new Event("storage"));
+}

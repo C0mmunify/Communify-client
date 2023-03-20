@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react';
+import { handleLogout } from '../../actions';
 import { BackButton, LoginForm } from '../../components';
 import './styles.css'
 
 const Login = () => {
 
     useEffect(() => {
-        localStorage.clear()
+        handleLogout()
     }, [])
     
     return (

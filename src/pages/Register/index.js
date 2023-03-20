@@ -1,10 +1,11 @@
 import React, {useEffect} from 'react';
+import { handleLogout } from '../../actions';
 import { BackButton, RegisterForm } from '../../components';
 
 const Register = () =>  {
     
     useEffect(() => {
-        localStorage.clear()
+        handleLogout()
     }, [])
 
     return (

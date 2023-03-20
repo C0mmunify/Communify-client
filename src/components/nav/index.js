@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { NavLink } from 'react-router-dom';
 import Hamburger from '../hamburger';
+import { handleLogout } from '../../actions';
 import './styles.css'
 
 const Nav = () => {
@@ -27,10 +28,6 @@ const Nav = () => {
 
     const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
-    const handleLogout = () => {
-        localStorage.clear();
-        window.dispatchEvent(new Event("storage"));
-    }
 
     const toggleHamburger = () => {
         setHamburgerOpen(!hamburgerOpen)
