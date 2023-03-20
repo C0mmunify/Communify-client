@@ -1,9 +1,13 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './styles.css'
 
 const Homepage = () => {
     const goTo = useNavigate();
+
+    useEffect(() => {
+        localStorage.clear()
+    }, [])
 
     return (
         <section id="homepageSection">
