@@ -10,7 +10,7 @@
     Width: 100%;
     Height: 50px;
     background-color: white;
-    padding: 3vh;
+    padding: 3vh, 3.3vh, 3vh, 3vh;
     color: black;
     background-color: rgb(238, 225, 245);
 }
