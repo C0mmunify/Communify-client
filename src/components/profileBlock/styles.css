@@ -26,14 +26,20 @@
     align-self: center;
 }
 
-h1 {
+#profileBlock h1 {
     align-items: center;
     padding-top: 5px;
     margin: 5px;
+    font-size: 3vw;
 }
 
-p {
+#profileBlock p {
     align-items: center;
     padding: 5px;
     margin: 5px;
+    font-size: 1.5vw;
+}
+
+#profileBlock img {
+    width: 20vw;
 }

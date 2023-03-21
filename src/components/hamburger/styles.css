@@ -1,6 +1,6 @@
 #headerimg {
     display: flex;
     float: left;
-    max-width: 40%;
-    height: auto;
+    max-width: 100%;
+    height: 100%;
 }

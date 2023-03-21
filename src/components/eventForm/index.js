@@ -68,7 +68,7 @@ function EventForm() {
     }
 
     return (
-        <form aria-label='form' onSubmit={handleSubmit}>
+        <form id='eventForm' aria-label='form' onSubmit={handleSubmit}>
              {errorMessage && (
                 <p className="error"> {errorMessage} </p>
             )}

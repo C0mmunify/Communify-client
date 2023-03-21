@@ -1,3 +1,7 @@
 input[type=submit]::-webkit-file-upload-button{
     cursor: pointer;
 }
+
+#eventForm input {
+    margin: 2.5vh;
+}

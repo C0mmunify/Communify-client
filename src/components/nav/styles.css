@@ -8,9 +8,9 @@
     justify-content: space-between;
     align-items: center;
     Width: 100%;
-    Height: 50px;
+    Height: 3.5vh;
     background-color: white;
-    padding: 3vh;
+    padding: 3.5vh;
     color: black;
     background-color: rgb(238, 225, 245);
 }
@@ -48,12 +48,12 @@ a, a:visited{
         display:flex;
         position: absolute;
         flex-direction: column;
-        top: 80px;
+        top: 8vh;
         background-color: rgba(227, 212, 235, 0.7);
         z-index: 200;
         float: left;
         margin: 20 0px;
-        padding: 10px 35px;
+        padding: 0 5vw;
         border-radius: 10px;
     }
 
@@ -67,6 +67,7 @@ a, a:visited{
         display: flex;
         flex-direction: column-reverse;
         justify-content: flex-end;
+        padding: 2vh 3vh 4.5vh 3vh;
     }
 
     .navigation {
@@ -77,9 +78,9 @@ a, a:visited{
 
 .hamburger {
     display: flex;
-    height: 40px;
+    height: 7vh;
 }
 
 #spacer{
-    padding: 50px;
+    padding: 6vh;
 }

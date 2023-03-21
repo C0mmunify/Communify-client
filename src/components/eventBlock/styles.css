@@ -13,6 +13,7 @@
     justify-content: left;
     padding: 20px;
     padding-top: 0;
+    padding-bottom: 0;
     border: solid;
     border-color: black;
     border-width: 1px;
@@ -23,8 +24,8 @@
 }
 
 #eventMain {
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     padding-top: 10px;
     width: 17.5%;
 }
@@ -44,6 +45,17 @@
     width: 17.5%;
 }
 
-h1 {
+#eventMain h1 {
     align-items: flex-start;
+    font-size: 3vw;
+    margin-top: 0;
+    margin-bottom: 0.83rem;
+}
+
+#eventBlock h2 {
+    font-size: 2vw;
+}
+
+#eventBlock p {
+    font-size: 1.5vw;
 }
