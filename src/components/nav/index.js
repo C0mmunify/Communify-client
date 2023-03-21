@@ -20,6 +20,7 @@ const Nav = () => {
           function handleResize() {
             setWindowDimensions(getWindowDimensions());
           }
+          console.log(window)
       
           window.addEventListener('resize', handleResize);
           return () => window.removeEventListener('resize', handleResize);

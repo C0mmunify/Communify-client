@@ -9,7 +9,6 @@ const EventBlock = (props) => {
     return(
         <section id='eventBlock'>
             <section id='eventMain'>
-        {/* <img src=></img> */}
         { <h1> {props.title} </h1> }
         { <h2> {props.location} </h2> }
         { <p> {formattedDate} </p>}
@@ -21,9 +20,10 @@ const EventBlock = (props) => {
         { <p> Attendees: {props.spaces_total - props.spaces_remaining} </p> }
         { <p> Spaces Remaining: {props.spaces_remaining} </p>}
         </section>
-        {/* <AttendButton /> */}
     </section>
     )
 }
 
 export default EventBlock
+
+
