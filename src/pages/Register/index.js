@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import { handleLogout } from '../../actions';
 import { BackButton, RegisterForm } from '../../components';
+import './styles.css'
 
 const Register = () =>  {
     
