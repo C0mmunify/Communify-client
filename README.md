@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Communify. Bringing your council, closer.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installation and Usage
 
-## Available Scripts
+### Installation
 
-In the project directory, you can run:
+- Clone or download the repo.
 
-### `npm start`
+### Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Make sure you have cd'd into the communify-client folder and run npm start. This will launch the application on localhost:3000.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- User can register and create an account.
+- User can see events in their local area.
+- User can create a new event.
+- User can interact with a profile dashboard.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Bugs
 
-### `npm run build`
+- Bug free at the moment, but more features to be added.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Potential Future Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Delete event and attend event buttons added. Server functionality is there.
+- Add image storage and edit functionality for users and events.
+- Add a chat or Instant Messenger service.
+- Add a gaming section via APIs.
+- Improve security and verification via login portals.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Challenges and Wins
 
-### `npm run eject`
+### Challenges
+- Time! Working on this project outside of work hours and around our lives was difficult.
+- Naivety - we underestimated the work that goes into even developing a simple application.
+- CSS is a lot more fiddly than we remembered!
+- Finding new technologies to host server and client apps after our usual techs have been discontinued (or removed free options!)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Wins
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Amazing team work and collaboration.
+- Server functionality was great and integration into the front end was effortless.
+- Server side testing and coverage was great.
+- Theme, design and feel of the app is where we want it.
+- Project structure, planning and workflow created a successful first draft of app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Credits
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Franklyn
+- Noah
+- Tom
