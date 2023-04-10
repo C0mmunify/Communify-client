@@ -14,10 +14,10 @@ img {
 }
 
 button {
-    background-color: rgb(1, 1, 185);
+    background-color: #a6dfda;
     font-family: 'Rubik', sans-serif;
     font-weight: bold;
-    color: #E9ECDE;
+    color: #010101;
     border-radius: 20px;
     min-width: 250px;
     min-height: 35px;
@@ -28,4 +28,10 @@ button {
 
 button:hover {
     cursor: pointer;
+}
+
+#back-button {
+    background-color:feb8b3;
+    min-width: 100px;
+    min-height: 20px;
 }
