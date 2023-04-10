@@ -27,7 +27,7 @@
     margin-left: 2.5%;
     margin-right: 2.5%;
     padding-top: 10px;
-    width: 17.5%;
+    width: 100%;
 }
 
 #eventDescription {
@@ -35,21 +35,23 @@
     padding-left: 2.5%;
     padding-right: 2.5%;
     padding-top: 10px;
-    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #eventAttendance {
     padding-left: 2.5%;
     padding-right: 2.5%;
     padding-top: 10px;
-    width: 17.5%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #eventMain h1 {
-    align-items: flex-start;
     font-size: 3vw;
     margin-top: 0;
     margin-bottom: 0.83rem;
+    text-align: center;
 }
 
 #eventBlock h2 {
