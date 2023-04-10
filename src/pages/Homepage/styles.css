@@ -11,7 +11,6 @@
 img {
     max-width: 500px;
     align-self: center;
-    margin-bottom: 50px;
 }
 
 button {
@@ -35,4 +34,8 @@ button:hover {
     background-color: #feb8b3;
     min-width: 100px;
     min-height: 20px;
+}
+
+#login-button {
+    margin-top: 50px;
 }
