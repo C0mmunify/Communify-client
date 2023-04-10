@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
 
 body {
     font-family: 'Rubik', sans-serif;
@@ -7,7 +7,7 @@ body {
 
 h1 {
     font-size: 2rem;
-    font-family: 'Alkatra', cursive;
+    font-family: 'Coming Soon', cursive;
 }
 
 #loginSection {
