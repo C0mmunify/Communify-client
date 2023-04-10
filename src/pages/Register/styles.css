@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 body {
     font-family: 'Rubik', sans-serif;
@@ -6,6 +7,7 @@ body {
 
 h1 {
     font-size: 1.5rem;
+    font-family: 'Permanent Marker', cursive;
 }
 
 #registerSection {
