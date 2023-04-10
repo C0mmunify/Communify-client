@@ -53,7 +53,10 @@ const Profile = () => {
         <section id="profileSection">
             {/* <img id='headerimg' src='https://drive.google.com/uc?export=view&id=1WtBo3h7QZbD6cquMapmWCgXFUDLXYsIe' alt='Communify Logo'></img> */}
             <ProfileBlock />
-            {EventList}
+            <section id="upcoming-events">
+                <h1>Upcoming Events</h1>
+                {EventList}
+            </section>
             <BackButton />
         </section>
     );
