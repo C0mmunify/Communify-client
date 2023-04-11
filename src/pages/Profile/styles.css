@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
 
 body {
     font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-family: 'Coming Soon', cursive;
 }
 
 #upcoming-events-title {
